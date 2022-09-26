@@ -22,6 +22,8 @@
   "devDependencies": {
     "bootstrap": "^5.2.1",
     "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
     "node-sass": "^7.0.3",
     "sass-loader": "^13.0.2",
@@ -30,5 +32,8 @@
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.11.1",
     "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^4.0.0"
   }
 }
